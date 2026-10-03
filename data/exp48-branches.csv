@@ -1,0 +1,890 @@
+state,origin_cluster,arm_id,arm,repeat,model,task,stall_type,recoverability,start_score,best_score,solved,generated_tokens,usd_known,usd_complete
+a9533480,O01,H=ledger:full,Ledger (full),r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,18008,0.01803438,False
+a9533480,O01,H=ledger:full,Ledger (full),r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,31187,0.028125035,False
+a9533480,O01,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,23005,0.024664835,False
+a9533480,O01,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,14490,0.015369135,False
+a9533480,O01,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,20854,0.02263828,False
+a9533480,O01,H=ledger:minus_beliefs@global,Ledger - beliefs,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,16279,0.014642925,False
+a9533480,O01,H=ledger:minus_current_approach,Ledger - current approach,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,20961,0.02199689,False
+a9533480,O01,H=ledger:minus_current_approach,Ledger - current approach,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,12276,0.012992955,False
+a9533480,O01,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,14135,0.01517827,False
+a9533480,O01,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,20445,0.020101305,False
+a9533480,O01,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,12022,0.011865175,False
+a9533480,O01,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,26932,0.02747847,False
+a9533480,O01,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,23175,0.02267611,False
+a9533480,O01,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,18942,0.019331975,False
+a9533480,O01,H=ledger:minus_plans@global,Ledger - plans,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,14244,0.01410396,False
+a9533480,O01,H=ledger:minus_plans@global,Ledger - plans,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,16213,0.016382135,False
+a9533480,O01,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,23646,0.02323644,False
+a9533480,O01,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,30756,0.029065605,False
+a9533480,O01,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,24238,0.022933895,False
+a9533480,O01,H=ledger:minus_reasoning_channel,Ledger - reasoning,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,16019,0.01597595,False
+a9533480,O01,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,14165,0.014198815,False
+a9533480,O01,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,21462,0.02115533,False
+a9533480,O01,H=reset;R=discard,Reset H + fresh R,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,17476,0.01629666,False
+a9533480,O01,H=reset;R=discard,Reset H + fresh R,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,13476,0.013560105,False
+a9533480,O01,H=summary,Summary H,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,643,0.00112203,False
+a9533480,O01,H=summary,Summary H,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,8782,0.00915153,False
+a9533480,O01,continue,Continue,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,31206,0.048333545,False
+a9533480,O01,continue,Continue,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,27888,0.036607415,False
+a9533480,O01,continue_no_runtime,"Fresh R, keep H",r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,16177,0.01998771,False
+a9533480,O01,continue_no_runtime,"Fresh R, keep H",r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,21807,0.03181052,False
+a9533480,O01,reset_history,Reset H,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,14085,0.015098155,False
+a9533480,O01,reset_history,Reset H,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,12341,0.013097925,False
+a9533480,O01,rollback_later_history,"Roll back W, keep H",r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,28740,0.032161105,False
+a9533480,O01,rollback_later_history,"Roll back W, keep H",r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,32242,0.0512663,False
+a9533480,O01,rollback_reset,Roll back W + reset H,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,10732,0.01189255,False
+a9533480,O01,rollback_reset,Roll back W + reset H,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,untyped,recoverable,0.8,0.8,0,14416,0.01414818,False
+a9533480-C12-r2,O01,H=ledger:full,Ledger (full),r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,15285,0.01507418,False
+a9533480-C12-r2,O01,H=ledger:full,Ledger (full),r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,13381,0.015973625,False
+a9533480-C12-r2,O01,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.7,0.8,0,13283,0.0138048,False
+a9533480-C12-r2,O01,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.7,0.8,0,16834,0.01619586,False
+a9533480-C12-r2,O01,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,14805,0.01525737,False
+a9533480-C12-r2,O01,H=ledger:minus_beliefs@global,Ledger - beliefs,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,15920,0.01467802,False
+a9533480-C12-r2,O01,H=ledger:minus_current_approach,Ledger - current approach,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,22601,0.02229213,False
+a9533480-C12-r2,O01,H=ledger:minus_current_approach,Ledger - current approach,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,17486,0.017238015,False
+a9533480-C12-r2,O01,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.7,0.8,0,11596,0.012649305,False
+a9533480-C12-r2,O01,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.7,0.8,0,16880,0.01733081,False
+a9533480-C12-r2,O01,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,22754,0.02754959,False
+a9533480-C12-r2,O01,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,16482,0.017831475,False
+a9533480-C12-r2,O01,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,21108,0.02306062,False
+a9533480-C12-r2,O01,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,20998,0.018986185,False
+a9533480-C12-r2,O01,H=ledger:minus_plans@global,Ledger - plans,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,21603,0.021141455,False
+a9533480-C12-r2,O01,H=ledger:minus_plans@global,Ledger - plans,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,14219,0.013875975,False
+a9533480-C12-r2,O01,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,20394,0.019232245,False
+a9533480-C12-r2,O01,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,13076,0.01334855,False
+a9533480-C12-r2,O01,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,19075,0.02081536,False
+a9533480-C12-r2,O01,H=ledger:minus_reasoning_channel,Ledger - reasoning,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,12821,0.012027185,False
+a9533480-C12-r2,O01,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,13281,0.0156409,False
+a9533480-C12-r2,O01,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,22438,0.023199875,False
+a9533480-C12-r2,O01,H=reset;R=discard,Reset H + fresh R,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,15765,0.019381475,False
+a9533480-C12-r2,O01,H=reset;R=discard,Reset H + fresh R,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,11593,0.012291545,False
+a9533480-C12-r2,O01,H=summary,Summary H,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,8766,0.009550155,False
+a9533480-C12-r2,O01,H=summary,Summary H,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,9997,0.012631375,False
+a9533480-C12-r2,O01,continue,Continue,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,2665,0.0114233,False
+a9533480-C12-r2,O01,continue,Continue,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,4014,0.004615105,False
+a9533480-C12-r2,O01,continue_no_runtime,"Fresh R, keep H",r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,3199,0.011640955,False
+a9533480-C12-r2,O01,continue_no_runtime,"Fresh R, keep H",r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,6423,0.01448184,False
+a9533480-C12-r2,O01,reset_history,Reset H,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,22536,0.021042245,False
+a9533480-C12-r2,O01,reset_history,Reset H,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.6,0.8,0,12456,0.012571825,False
+a9533480-C12-r2,O01,rollback_later_history,"Roll back W, keep H",r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.8,0.8,0,9379,0.022217705,False
+a9533480-C12-r2,O01,rollback_later_history,"Roll back W, keep H",r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.8,0.8,0,14818,0.029347095,False
+a9533480-C12-r2,O01,rollback_reset,Roll back W + reset H,r0,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.8,0.8,0,13728,0.013430265,False
+a9533480-C12-r2,O01,rollback_reset,Roll back W + reset H,r1,gpt-6-luna,mettlebench-terminal-grpc-protoc-regen-handoff-v1,over-commit,recoverable,0.8,0.8,0,20172,0.018270515,False
+1158b70f,O02,H=ledger:full,Ledger (full),r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.5,0.5,0,7760,0.007219085,False
+1158b70f,O02,H=ledger:full,Ledger (full),r1,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.5,0.5,0,11216,0.00971555,False
+1158b70f,O02,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.3333333333333333,0.5,0,27024,0.022836715,False
+1158b70f,O02,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.5,0.5,0,15068,0.01254354,False
+1158b70f,O02,H=ledger:minus_current_approach,Ledger - current approach,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.5,0.5,0,12857,0.01045017,False
+1158b70f,O02,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.3333333333333333,0.5,0,9117,0.007630975,False
+1158b70f,O02,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.5,0.5,0,8623,0.00844375,False
+1158b70f,O02,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.5,0.5,0,8060,0.007260475,False
+1158b70f,O02,H=ledger:minus_plans@global,Ledger - plans,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.5,0.5,0,8769,0.008092545,False
+1158b70f,O02,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.5,0.5,0,9762,0.00858623,False
+1158b70f,O02,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.5,0.5,0,8615,0.00744725,False
+1158b70f,O02,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.5,0.5,0,9710,0.00966144,False
+1158b70f,O02,H=reset;R=discard,Reset H + fresh R,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.5,0.5,0,11619,0.00932569,False
+1158b70f,O02,H=summary,Summary H,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.5,0.5,0,6698,0.00660893,False
+1158b70f,O02,continue,Continue,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.5,0.5,0,5416,0.00675817,False
+1158b70f,O02,continue,Continue,r1,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.5,0.5,0,6669,0.01789932,False
+1158b70f,O02,continue_no_runtime,"Fresh R, keep H",r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.5,0.5,0,5527,0.015169975,False
+1158b70f,O02,reset_history,Reset H,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.5,0.5,0,20358,0.018440315,False
+1158b70f,O02,reset_history,Reset H,r1,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.5,0.5,0,8726,0.00816431,False
+1158b70f,O02,rollback_later_history,"Roll back W, keep H",r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.5,0.6666666666666666,0,12725,0.01837943,False
+1158b70f,O02,rollback_reset,Roll back W + reset H,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,over-commit,recoverable,0.5,1.0,1,26816,0.022091845,False
+1158b70f-C4-r1,O02,H=ledger:full,Ledger (full),r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,unparseable,recoverable,0.5,0.6666666666666666,0,13439,0.011836425,False
+1158b70f-C4-r1,O02,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,unparseable,recoverable,0.6666666666666666,0.6666666666666666,0,17473,0.014859705,False
+1158b70f-C4-r1,O02,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,unparseable,recoverable,0.5,0.6666666666666666,0,15604,0.012509205,False
+1158b70f-C4-r1,O02,H=ledger:minus_current_approach,Ledger - current approach,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,unparseable,recoverable,0.5,0.6666666666666666,0,11217,0.00895456,False
+1158b70f-C4-r1,O02,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,unparseable,recoverable,0.6666666666666666,0.6666666666666666,0,10699,0.008848705,False
+1158b70f-C4-r1,O02,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,unparseable,recoverable,0.5,0.6666666666666666,0,26976,0.02421845,False
+1158b70f-C4-r1,O02,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,unparseable,recoverable,0.5,0.6666666666666666,0,17229,0.01302787,False
+1158b70f-C4-r1,O02,H=ledger:minus_plans@global,Ledger - plans,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,unparseable,recoverable,0.5,0.6666666666666666,0,10255,0.00852488,False
+1158b70f-C4-r1,O02,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,unparseable,recoverable,0.5,0.6666666666666666,0,10252,0.008966425,False
+1158b70f-C4-r1,O02,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,unparseable,recoverable,0.5,0.6666666666666666,0,11278,0.0091529,False
+1158b70f-C4-r1,O02,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,unparseable,recoverable,0.5,0.6666666666666666,0,17703,0.01581632,False
+1158b70f-C4-r1,O02,H=reset;R=discard,Reset H + fresh R,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,unparseable,recoverable,0.5,0.6666666666666666,0,14321,0.013230425,False
+1158b70f-C4-r1,O02,continue,Continue,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,unparseable,recoverable,0.5,0.6666666666666666,0,22188,0.029838225,False
+1158b70f-C4-r1,O02,continue,Continue,r1,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,unparseable,recoverable,0.5,0.6666666666666666,0,14066,0.02049998,False
+1158b70f-C4-r1,O02,continue_no_runtime,"Fresh R, keep H",r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,unparseable,recoverable,0.5,0.6666666666666666,0,14537,0.01350973,False
+1158b70f-C4-r1,O02,reset_history,Reset H,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,unparseable,recoverable,0.5,0.6666666666666666,0,10744,0.010030755,False
+1158b70f-C4-r1,O02,rollback_later_history,"Roll back W, keep H",r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,unparseable,recoverable,0.6666666666666666,0.6666666666666666,0,29553,0.034996975,False
+1158b70f-C4-r1,O02,rollback_reset,Roll back W + reset H,r0,gpt-6-luna,mettlebench-gittaskbench-eparse-migrate-retype-handoff-v1,unparseable,recoverable,0.6666666666666666,1.0,1,22284,0.01760609,False
+1a917c67,O03,H=ledger:full,Ledger (full),r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,8208,0.00848988,False
+1a917c67,O03,H=ledger:full,Ledger (full),r1,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,10583,0.0095389,False
+1a917c67,O03,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,6570,0.006733505,False
+1a917c67,O03,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,7285,0.00742007,False
+1a917c67,O03,H=ledger:minus_current_approach,Ledger - current approach,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,7420,0.008564345,False
+1a917c67,O03,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,11013,0.01025248,False
+1a917c67,O03,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,8121,0.009310775,False
+1a917c67,O03,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,6011,0.00632652,False
+1a917c67,O03,H=ledger:minus_plans@global,Ledger - plans,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,6537,0.00705045,False
+1a917c67,O03,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,8384,0.00854983,False
+1a917c67,O03,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,6100,0.00706291,False
+1a917c67,O03,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,8448,0.00892239,False
+1a917c67,O03,H=reset;R=discard,Reset H + fresh R,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,7749,0.0078375,False
+1a917c67,O03,H=summary,Summary H,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,650,0.00089034,False
+1a917c67,O03,continue,Continue,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,1187,0.0080803,False
+1a917c67,O03,continue,Continue,r1,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,82,0.0075278,False
+1a917c67,O03,continue_no_runtime,"Fresh R, keep H",r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,467,0.00083272,False
+1a917c67,O03,reset_history,Reset H,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,8693,0.008302935,False
+1a917c67,O03,reset_history,Reset H,r1,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,5488,0.00609096,False
+1a917c67,O03,rollback_later_history,"Roll back W, keep H",r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,239,0.00071872,False
+1a917c67,O03,rollback_reset,Roll back W + reset H,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,4979,0.0059065,False
+1a917c67-C6-r0,O03,H=ledger:full,Ledger (full),r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,6602,0.007061045,False
+1a917c67-C6-r0,O03,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,8714,0.01003856,False
+1a917c67-C6-r0,O03,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,7493,0.00749135,False
+1a917c67-C6-r0,O03,H=ledger:minus_current_approach,Ledger - current approach,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,7698,0.00795858,False
+1a917c67-C6-r0,O03,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,18010,0.01584213,False
+1a917c67-C6-r0,O03,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,10022,0.0089205,False
+1a917c67-C6-r0,O03,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,9600,0.009203115,False
+1a917c67-C6-r0,O03,H=ledger:minus_plans@global,Ledger - plans,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,19534,0.01868633,False
+1a917c67-C6-r0,O03,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,9070,0.00887824,False
+1a917c67-C6-r0,O03,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,11235,0.009910955,False
+1a917c67-C6-r0,O03,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,9787,0.009497485,False
+1a917c67-C6-r0,O03,H=reset;R=discard,Reset H + fresh R,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,6411,0.006792995,False
+1a917c67-C6-r0,O03,H=summary,Summary H,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,2760,0.003498565,False
+1a917c67-C6-r0,O03,continue,Continue,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,8172,0.01433217,False
+1a917c67-C6-r0,O03,continue,Continue,r1,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,7981,0.014996345,False
+1a917c67-C6-r0,O03,continue_no_runtime,"Fresh R, keep H",r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,15154,0.01620888,False
+1a917c67-C6-r0,O03,reset_history,Reset H,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,7697,0.00783429,False
+1a917c67-C6-r0,O03,rollback_later_history,"Roll back W, keep H",r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,11070,0.01228137,False
+1a917c67-C6-r0,O03,rollback_reset,Roll back W + reset H,r0,gpt-6-luna,mettlebench-swe-pydicom-explicit-vr-handoff-v1,over-commit,recoverable,0.75,0.75,0,7697,0.008582665,False
+2bb8a79a,O04,H=ledger:full,Ledger (full),r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,7744,0.006669055,False
+2bb8a79a,O04,H=ledger:full,Ledger (full),r1,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,5030,0.004612715,False
+2bb8a79a,O04,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.7142857142857143,0.8571428571428571,0,5858,0.005219335,False
+2bb8a79a,O04,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,5849,0.005073525,False
+2bb8a79a,O04,H=ledger:minus_current_approach,Ledger - current approach,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,10989,0.009490545,False
+2bb8a79a,O04,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.7142857142857143,0.8571428571428571,0,7987,0.008872815,False
+2bb8a79a,O04,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,8152,0.006746965,False
+2bb8a79a,O04,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,5285,0.004656755,False
+2bb8a79a,O04,H=ledger:minus_plans@global,Ledger - plans,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,9483,0.00745925,False
+2bb8a79a,O04,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,10340,0.007820825,False
+2bb8a79a,O04,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,4825,0.004734335,False
+2bb8a79a,O04,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,6318,0.005571355,False
+2bb8a79a,O04,H=reset;R=discard,Reset H + fresh R,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,5397,0.004560595,False
+2bb8a79a,O04,H=summary,Summary H,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,3499,0.00320242,False
+2bb8a79a,O04,continue,Continue,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,8673,0.013511445,False
+2bb8a79a,O04,continue,Continue,r1,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,5336,0.009194135,False
+2bb8a79a,O04,continue_no_runtime,"Fresh R, keep H",r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,2039,0.001977285,False
+2bb8a79a,O04,reset_history,Reset H,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,9075,0.007174995,False
+2bb8a79a,O04,reset_history,Reset H,r1,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,6460,0.00551539,False
+2bb8a79a,O04,rollback_later_history,"Roll back W, keep H",r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,7998,0.007858975,False
+2bb8a79a,O04,rollback_reset,Roll back W + reset H,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,6100,0.00527081,False
+2bb8a79a-C7-r4,O04,H=ledger:full,Ledger (full),r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,11807,0.00933378,False
+2bb8a79a-C7-r4,O04,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.7142857142857143,0.8571428571428571,0,10763,0.008288725,False
+2bb8a79a-C7-r4,O04,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,9325,0.007100195,False
+2bb8a79a-C7-r4,O04,H=ledger:minus_current_approach,Ledger - current approach,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,6170,0.005411145,False
+2bb8a79a-C7-r4,O04,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.7142857142857143,0.8571428571428571,0,8679,0.00701009,False
+2bb8a79a-C7-r4,O04,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,8709,0.006843145,False
+2bb8a79a-C7-r4,O04,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,7053,0.005777805,False
+2bb8a79a-C7-r4,O04,H=ledger:minus_plans@global,Ledger - plans,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,8332,0.00694116,False
+2bb8a79a-C7-r4,O04,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,10801,0.008066345,False
+2bb8a79a-C7-r4,O04,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,7092,0.005682545,False
+2bb8a79a-C7-r4,O04,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,10260,0.008230805,False
+2bb8a79a-C7-r4,O04,H=reset;R=discard,Reset H + fresh R,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,9008,0.00754662,False
+2bb8a79a-C7-r4,O04,H=summary,Summary H,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,2222,0.002005855,False
+2bb8a79a-C7-r4,O04,continue,Continue,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,7262,0.0102171,False
+2bb8a79a-C7-r4,O04,continue,Continue,r1,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,8412,0.01145601,False
+2bb8a79a-C7-r4,O04,continue_no_runtime,"Fresh R, keep H",r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,7016,0.006116385,False
+2bb8a79a-C7-r4,O04,reset_history,Reset H,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,6247,0.005183525,False
+2bb8a79a-C7-r4,O04,rollback_later_history,"Roll back W, keep H",r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,13810,0.012028405,False
+2bb8a79a-C7-r4,O04,rollback_reset,Roll back W + reset H,r0,gpt-6-luna,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,ceiling,0.8571428571428571,0.8571428571428571,0,7220,0.006215875,False
+308a5679,O05,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,31538,0.0305966592,False
+308a5679,O05,H=ledger:full,Ledger (full),r1,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,40000,0.0412236072,False
+308a5679,O05,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,35888,0.0352847304,False
+308a5679,O05,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,40000,0.0421413408,False
+308a5679,O05,H=ledger:minus_current_approach,Ledger - current approach,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,33487,0.0381123216,False
+308a5679,O05,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,30561,0.0349500528,False
+308a5679,O05,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,40000,0.0405244944,False
+308a5679,O05,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,24864,0.0248908464,False
+308a5679,O05,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,40000,0.0436998384,False
+308a5679,O05,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,40000,0.0372907368,False
+308a5679,O05,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,37919,0.0358539336,False
+308a5679,O05,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,24830,0.0301212288,False
+308a5679,O05,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,29438,0.0292770144,False
+308a5679,O05,H=summary,Summary H,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,37451,0.0338355864,False
+308a5679,O05,continue,Continue,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,40000,0.0353427192,False
+308a5679,O05,continue,Continue,r1,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,40000,0.0479780928,False
+308a5679,O05,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,33111,0.0402886152,False
+308a5679,O05,o_masked,Mask tool outputs (O),r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,38022,0.047038788,False
+308a5679,O05,reset_history,Reset H,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,30405,0.0326606904,False
+308a5679,O05,reset_history,Reset H,r1,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,40000,0.0540282168,False
+308a5679,O05,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,31240,0.0267353208,False
+308a5679,O05,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,under-commit,early_origin,0.25,0.75,0,40000,0.0427608576,False
+308a5679-C0-r4,O05,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,stuck,early_origin,0.75,0.75,0,40000,0.0516076416,False
+308a5679-C0-r4,O05,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,stuck,early_origin,0.75,0.75,0,40000,0.0466916544,False
+308a5679-C0-r4,O05,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,stuck,early_origin,0.75,0.75,0,40000,0.0632528856,False
+308a5679-C0-r4,O05,H=ledger:minus_current_approach,Ledger - current approach,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,stuck,early_origin,0.75,0.75,0,40000,0.0665804016,False
+308a5679-C0-r4,O05,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,stuck,early_origin,0.75,0.75,0,40000,0.0481854096,False
+308a5679-C0-r4,O05,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,stuck,early_origin,0.75,0.75,0,35130,0.053498448,False
+308a5679-C0-r4,O05,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,stuck,early_origin,0.75,0.75,0,40000,0.0530287272,False
+308a5679-C0-r4,O05,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,stuck,early_origin,0.75,0.75,0,40000,0.0584810856,False
+308a5679-C0-r4,O05,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,stuck,early_origin,0.75,0.75,0,40000,0.0626252544,False
+308a5679-C0-r4,O05,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,stuck,early_origin,0.75,0.75,0,28491,0.0422712432,False
+308a5679-C0-r4,O05,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,stuck,early_origin,0.75,0.75,0,28751,0.0350125632,False
+308a5679-C0-r4,O05,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,stuck,early_origin,0.75,0.75,0,10758,0.0178495344,False
+308a5679-C0-r4,O05,H=summary,Summary H,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,stuck,early_origin,0.75,0.75,0,40000,0.0482444064,False
+308a5679-C0-r4,O05,continue,Continue,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,stuck,early_origin,0.75,0.75,0,40000,0.0503628696,False
+308a5679-C0-r4,O05,continue,Continue,r1,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,stuck,early_origin,0.75,0.75,0,37821,0.0731386584,False
+308a5679-C0-r4,O05,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,stuck,early_origin,0.75,0.75,0,40000,0.033365988,False
+308a5679-C0-r4,O05,reset_history,Reset H,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,stuck,early_origin,0.75,0.75,0,22591,0.0307269144,False
+308a5679-C0-r4,O05,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,stuck,early_origin,0.75,0.75,0,40000,0.0340445232,False
+308a5679-C0-r4,O05,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,mettlebench-swe-pydicom-explicit-vr-handoff-v1,stuck,early_origin,0.75,0.75,0,19049,0.0263478816,False
+5d0b0837,O06,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,over-commit,recoverable,0.6,0.6,0,40000,0.0460702008,False
+5d0b0837,O06,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,over-commit,recoverable,0.6,0.6,0,40000,0.0392263272,False
+5d0b0837,O06,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,over-commit,recoverable,0.6,0.6,0,40000,0.0555899184,False
+5d0b0837,O06,H=ledger:minus_current_approach,Ledger - current approach,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,over-commit,recoverable,0.6,0.6,0,40000,0.0437830272,False
+5d0b0837,O06,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,over-commit,recoverable,0.6,0.8,0,40000,0.0570706704,False
+5d0b0837,O06,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,over-commit,recoverable,0.6,0.6,0,40000,0.0542005488,False
+5d0b0837,O06,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,over-commit,recoverable,0.6,0.8,0,40000,0.061630488,False
+5d0b0837,O06,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,over-commit,recoverable,0.6,0.6,0,40000,0.0559120248,False
+5d0b0837,O06,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,over-commit,recoverable,0.6,0.6,0,40000,0.055468836,False
+5d0b0837,O06,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,over-commit,recoverable,0.6,0.8,0,24883,0.03844584,False
+5d0b0837,O06,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,over-commit,recoverable,0.6,0.6,0,40000,0.0522409032,False
+5d0b0837,O06,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,over-commit,recoverable,0.6,0.8,0,39897,0.0439813368,False
+5d0b0837,O06,H=summary,Summary H,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,over-commit,recoverable,0.6,0.6,0,40000,0.0466146576,False
+5d0b0837,O06,continue,Continue,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,over-commit,recoverable,0.6,1.0,1,29089,0.0568975464,False
+5d0b0837,O06,continue,Continue,r1,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,over-commit,recoverable,0.6,0.6,0,40000,0.068779728,False
+5d0b0837,O06,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,over-commit,recoverable,0.6,0.6,0,40000,0.0398470464,False
+5d0b0837,O06,reset_history,Reset H,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,over-commit,recoverable,0.6,0.8,0,16447,0.0177071472,False
+5d0b0837,O06,reset_history,Reset H,r1,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,over-commit,recoverable,0.6,0.8,0,40000,0.061783668,False
+5d0b0837,O06,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,over-commit,recoverable,0.8,1.0,1,27426,0.0324015696,False
+5d0b0837,O06,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,over-commit,recoverable,0.8,0.8,0,15351,0.0212671584,False
+5d0b0837-C7-r1,O06,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,stuck,recoverable,0.8,0.8,0,40000,0.0439701048,False
+5d0b0837-C7-r1,O06,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,stuck,recoverable,0.8,0.8,0,40000,0.0464607504,False
+5d0b0837-C7-r1,O06,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,stuck,recoverable,0.8,0.8,0,40000,0.047226096,False
+5d0b0837-C7-r1,O06,H=ledger:minus_current_approach,Ledger - current approach,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,stuck,recoverable,0.8,0.8,0,18053,0.0235980072,False
+5d0b0837-C7-r1,O06,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,stuck,recoverable,0.8,0.8,0,13478,0.0170595072,False
+5d0b0837-C7-r1,O06,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,stuck,recoverable,0.8,0.8,0,23491,0.0363203424,False
+5d0b0837-C7-r1,O06,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,stuck,recoverable,0.8,0.8,0,40000,0.0440996976,False
+5d0b0837-C7-r1,O06,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,stuck,recoverable,0.8,0.8,0,40000,0.0408994128,False
+5d0b0837-C7-r1,O06,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,stuck,recoverable,0.8,0.8,0,40000,0.1003944528,False
+5d0b0837-C7-r1,O06,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,stuck,recoverable,0.8,0.8,0,10177,0.0143160984,False
+5d0b0837-C7-r1,O06,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,stuck,recoverable,0.8,0.8,0,22660,0.0271980936,False
+5d0b0837-C7-r1,O06,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,stuck,recoverable,0.8,0.8,0,32012,0.0361079784,False
+5d0b0837-C7-r1,O06,H=summary,Summary H,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,stuck,recoverable,0.8,0.8,0,40000,0.0444660048,False
+5d0b0837-C7-r1,O06,continue,Continue,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,stuck,recoverable,0.8,0.8,0,40000,0.0414167184,False
+5d0b0837-C7-r1,O06,continue,Continue,r1,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,stuck,recoverable,0.8,0.8,0,40000,0.0491547456,False
+5d0b0837-C7-r1,O06,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,stuck,recoverable,0.8,0.8,0,40000,0.0381578112,False
+5d0b0837-C7-r1,O06,reset_history,Reset H,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,stuck,recoverable,0.8,0.8,0,26844,0.0370261656,False
+5d0b0837-C7-r1,O06,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,stuck,recoverable,0.8,1.0,1,29042,0.0251043984,False
+5d0b0837-C7-r1,O06,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,mettlebench-programbench-gomplate-template-handoff-v1,stuck,recoverable,0.8,0.8,0,16177,0.0220963752,False
+a9123799,O07,H=ledger:full,Ledger (full),r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,20153,0.01954925,False
+a9123799,O07,H=ledger:full,Ledger (full),r1,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,22534,0.026319075,False
+a9123799,O07,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,20877,0.02229574,False
+a9123799,O07,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,20589,0.020518035,False
+a9123799,O07,H=ledger:minus_current_approach,Ledger - current approach,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,33166,0.037445775,False
+a9123799,O07,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,16440,0.01786794,False
+a9123799,O07,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,22702,0.024575315,False
+a9123799,O07,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,40000,0.04273305,False
+a9123799,O07,H=ledger:minus_plans@global,Ledger - plans,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,40000,0.046791205,False
+a9123799,O07,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,37958,0.041258915,False
+a9123799,O07,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,9513,0.01163788,False
+a9123799,O07,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,19253,0.02099026,False
+a9123799,O07,H=reset;R=discard,Reset H + fresh R,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,18752,0.02118461,False
+a9123799,O07,H=summary,Summary H,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,7726,0.009898895,False
+a9123799,O07,continue,Continue,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,3214,0.01464775,False
+a9123799,O07,continue,Continue,r1,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,3106,0.01457789,False
+a9123799,O07,continue_no_runtime,"Fresh R, keep H",r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,1153,0.0025089,False
+a9123799,O07,reset_history,Reset H,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,12515,0.016136915,False
+a9123799,O07,reset_history,Reset H,r1,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,14717,0.01753844,False
+a9123799,O07,rollback_later_history,"Roll back W, keep H",r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,4227,0.005369875,False
+a9123799,O07,rollback_reset,Roll back W + reset H,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,19549,0.020386045,False
+a9123799-C16-r0,O07,H=ledger:full,Ledger (full),r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.8888888888888888,0,26302,0.028054645,False
+a9123799-C16-r0,O07,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,33532,0.036665245,False
+a9123799-C16-r0,O07,H=ledger:minus_current_approach,Ledger - current approach,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,16395,0.01832517,False
+a9123799-C16-r0,O07,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,15095,0.016561955,False
+a9123799-C16-r0,O07,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,17157,0.02013854,False
+a9123799-C16-r0,O07,H=ledger:minus_plans@global,Ledger - plans,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,40000,0.042059505,False
+a9123799-C16-r0,O07,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,40000,0.046214955,False
+a9123799-C16-r0,O07,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,7292,0.009627315,False
+a9123799-C16-r0,O07,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,25159,0.026078,False
+a9123799-C16-r0,O07,H=reset;R=discard,Reset H + fresh R,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,16781,0.02018335,False
+a9123799-C16-r0,O07,H=summary,Summary H,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,10116,0.0116874,False
+a9123799-C16-r0,O07,continue,Continue,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,6281,0.016658765,False
+a9123799-C16-r0,O07,continue,Continue,r1,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,2718,0.013229145,False
+a9123799-C16-r0,O07,continue_no_runtime,"Fresh R, keep H",r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,2730,0.00444126,False
+a9123799-C16-r0,O07,reset_history,Reset H,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,19190,0.02279992,False
+a9123799-C16-r0,O07,rollback_later_history,"Roll back W, keep H",r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,3919,0.005195215,False
+a9123799-C16-r0,O07,rollback_reset,Roll back W + reset H,r0,gpt-6-luna,mettlebench-programbench-gowsdl-regen-handoff-v1,over-commit,ceiling,0.7777777777777778,0.7777777777777778,0,17934,0.02213092,False
+b23a7e96,O08,H=ledger:full,Ledger (full),r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,39804,0.03354896,False
+b23a7e96,O08,H=ledger:full,Ledger (full),r1,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,33808,0.0316893,False
+b23a7e96,O08,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.5454545454545454,0.6363636363636364,0,24405,0.02247819,False
+b23a7e96,O08,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,38338,0.03176366,False
+b23a7e96,O08,H=ledger:minus_current_approach,Ledger - current approach,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,28517,0.02618802,False
+b23a7e96,O08,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.5454545454545454,0.6363636363636364,0,34437,0.03257893,False
+b23a7e96,O08,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,36768,0.033925865,False
+b23a7e96,O08,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,36124,0.03078365,False
+b23a7e96,O08,H=ledger:minus_plans@global,Ledger - plans,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.036446055,False
+b23a7e96,O08,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,31117,0.029050125,False
+b23a7e96,O08,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,27259,0.026074635,False
+b23a7e96,O08,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,27364,0.026665295,False
+b23a7e96,O08,H=reset;R=discard,Reset H + fresh R,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,28986,0.02751239,False
+b23a7e96,O08,H=summary,Summary H,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,21455,0.01743695,False
+b23a7e96,O08,continue,Continue,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,484,0.00747955,False
+b23a7e96,O08,continue,Continue,r1,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,661,0.00823233,False
+b23a7e96,O08,continue_no_runtime,"Fresh R, keep H",r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,219,0.00068878,False
+b23a7e96,O08,reset_history,Reset H,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,27211,0.02477845,False
+b23a7e96,O08,reset_history,Reset H,r1,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,29210,0.02406872,False
+b23a7e96,O08,rollback_later_history,"Roll back W, keep H",r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,186,0.00067228,False
+b23a7e96,O08,rollback_reset,Roll back W + reset H,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,21371,0.020549665,False
+b23a7e96-C7-r4,O08,H=ledger:full,Ledger (full),r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,33974,0.029109275,False
+b23a7e96-C7-r4,O08,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,38169,0.03998093,False
+b23a7e96-C7-r4,O08,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,37271,0.036407925,False
+b23a7e96-C7-r4,O08,H=ledger:minus_current_approach,Ledger - current approach,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,35395,0.032739295,False
+b23a7e96-C7-r4,O08,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,32335,0.031672295,False
+b23a7e96-C7-r4,O08,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,38996,0.037691895,False
+b23a7e96-C7-r4,O08,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,36859,0.039518385,False
+b23a7e96-C7-r4,O08,H=ledger:minus_plans@global,Ledger - plans,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.03816525,False
+b23a7e96-C7-r4,O08,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,36502,0.03672181,False
+b23a7e96-C7-r4,O08,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,32478,0.028384125,False
+b23a7e96-C7-r4,O08,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,35865,0.033345745,False
+b23a7e96-C7-r4,O08,H=reset;R=discard,Reset H + fresh R,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,39940,0.035127245,False
+b23a7e96-C7-r4,O08,H=summary,Summary H,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,9495,0.009991215,False
+b23a7e96-C7-r4,O08,continue,Continue,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,3165,0.009962,False
+b23a7e96-C7-r4,O08,continue,Continue,r1,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,1359,0.00880225,False
+b23a7e96-C7-r4,O08,continue_no_runtime,"Fresh R, keep H",r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,1799,0.0090825,False
+b23a7e96-C7-r4,O08,reset_history,Reset H,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,19801,0.017999265,False
+b23a7e96-C7-r4,O08,rollback_later_history,"Roll back W, keep H",r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,3213,0.011343485,False
+b23a7e96-C7-r4,O08,rollback_reset,Roll back W + reset H,r0,gpt-6-luna,mettlebench-programbench-age-crypto-fixture-handoff-v1,over-commit,ceiling,0.6363636363636364,0.6363636363636364,0,9284,0.009514515,False
+bf7feb26,O09,H=ledger:full,Ledger (full),r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.7777777777777778,0.8888888888888888,0,12697,0.01626016,False
+bf7feb26,O09,H=ledger:full,Ledger (full),r1,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.7777777777777778,0.8888888888888888,0,13778,0.015173705,False
+bf7feb26,O09,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.5555555555555556,0.8888888888888888,0,18042,0.02066931,False
+bf7feb26,O09,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.7777777777777778,0.8888888888888888,0,14186,0.015384305,False
+bf7feb26,O09,H=ledger:minus_current_approach,Ledger - current approach,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.7777777777777778,0.8888888888888888,0,11308,0.01315897,False
+bf7feb26,O09,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.5555555555555556,0.8888888888888888,0,23978,0.021525695,False
+bf7feb26,O09,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.7777777777777778,0.8888888888888888,0,10202,0.011060465,False
+bf7feb26,O09,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.7777777777777778,0.8888888888888888,0,16485,0.019525925,False
+bf7feb26,O09,H=ledger:minus_plans@global,Ledger - plans,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.7777777777777778,0.8888888888888888,0,20573,0.021093285,False
+bf7feb26,O09,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.7777777777777778,0.8888888888888888,0,15316,0.01624177,False
+bf7feb26,O09,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.7777777777777778,0.8888888888888888,0,10551,0.01318376,False
+bf7feb26,O09,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.7777777777777778,0.8888888888888888,0,10284,0.01390845,False
+bf7feb26,O09,H=reset;R=discard,Reset H + fresh R,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.7777777777777778,0.8888888888888888,0,10505,0.011556235,False
+bf7feb26,O09,H=summary,Summary H,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.7777777777777778,0.8888888888888888,0,11357,0.01297927,False
+bf7feb26,O09,continue,Continue,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.7777777777777778,0.8888888888888888,0,1675,0.01597499,False
+bf7feb26,O09,continue,Continue,r1,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.7777777777777778,0.8888888888888888,0,1625,0.01594172,False
+bf7feb26,O09,continue_no_runtime,"Fresh R, keep H",r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.7777777777777778,0.8888888888888888,0,2005,0.003306495,False
+bf7feb26,O09,reset_history,Reset H,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.7777777777777778,0.8888888888888888,0,11420,0.013859375,False
+bf7feb26,O09,reset_history,Reset H,r1,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.7777777777777778,0.8888888888888888,0,12494,0.01922603,False
+bf7feb26,O09,rollback_later_history,"Roll back W, keep H",r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,11031,0.02342911,False
+bf7feb26,O09,rollback_reset,Roll back W + reset H,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,11325,0.012990515,False
+bf7feb26-C12-r2,O09,H=ledger:full,Ledger (full),r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.6666666666666666,0.8888888888888888,0,10698,0.012862355,False
+bf7feb26-C12-r2,O09,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.6666666666666666,0.8888888888888888,0,11707,0.012893655,False
+bf7feb26-C12-r2,O09,H=ledger:minus_current_approach,Ledger - current approach,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.6666666666666666,0.8888888888888888,0,12973,0.01538581,False
+bf7feb26-C12-r2,O09,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.6666666666666666,0.8888888888888888,0,12390,0.01688911,False
+bf7feb26-C12-r2,O09,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.6666666666666666,0.8888888888888888,0,9993,0.01124431,False
+bf7feb26-C12-r2,O09,H=ledger:minus_plans@global,Ledger - plans,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.6666666666666666,0.8888888888888888,0,10337,0.011450615,False
+bf7feb26-C12-r2,O09,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.6666666666666666,0.8888888888888888,0,13577,0.01425296,False
+bf7feb26-C12-r2,O09,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.6666666666666666,0.8888888888888888,0,8051,0.00972779,False
+bf7feb26-C12-r2,O09,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.6666666666666666,0.8888888888888888,0,12499,0.01560281,False
+bf7feb26-C12-r2,O09,H=reset;R=discard,Reset H + fresh R,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.6666666666666666,0.8888888888888888,0,17588,0.02092877,False
+bf7feb26-C12-r2,O09,H=summary,Summary H,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.6666666666666666,0.8888888888888888,0,22879,0.02694972,False
+bf7feb26-C12-r2,O09,continue,Continue,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.6666666666666666,0.8888888888888888,0,2015,0.0152734,False
+bf7feb26-C12-r2,O09,continue,Continue,r1,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.6666666666666666,0.8888888888888888,0,1674,0.01329991,False
+bf7feb26-C12-r2,O09,continue_no_runtime,"Fresh R, keep H",r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.6666666666666666,0.8888888888888888,0,2166,0.01289103,False
+bf7feb26-C12-r2,O09,reset_history,Reset H,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.6666666666666666,0.8888888888888888,0,12814,0.01476883,False
+bf7feb26-C12-r2,O09,rollback_later_history,"Roll back W, keep H",r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,7716,0.02239489,False
+bf7feb26-C12-r2,O09,rollback_reset,Roll back W + reset H,r0,gpt-6-luna,mettlebench-swe-numpy-cython-regen-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,12483,0.012926525,False
+d0baad7a,O10,H=ledger:full,Ledger (full),r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,21467,0.02080163,False
+d0baad7a,O10,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,9422,0.01167755,False
+d0baad7a,O10,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,12249,0.01556863,False
+d0baad7a,O10,H=ledger:minus_current_approach,Ledger - current approach,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,11720,0.012658165,False
+d0baad7a,O10,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,18065,0.01834813,False
+d0baad7a,O10,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,9835,0.01325146,False
+d0baad7a,O10,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,17762,0.02027013,False
+d0baad7a,O10,H=ledger:minus_plans@global,Ledger - plans,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,12348,0.01498741,False
+d0baad7a,O10,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,12675,0.015397425,False
+d0baad7a,O10,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,12174,0.01333712,False
+d0baad7a,O10,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,17310,0.02000017,False
+d0baad7a,O10,H=reset;R=discard,Reset H + fresh R,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,14925,0.016759975,False
+d0baad7a,O10,H=summary,Summary H,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,419,0.000644425,False
+d0baad7a,O10,continue,Continue,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,652,0.01396188,False
+d0baad7a,O10,continue,Continue,r1,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,1936,0.014682505,False
+d0baad7a,O10,continue_no_runtime,"Fresh R, keep H",r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,3738,0.004350785,False
+d0baad7a,O10,reset_history,Reset H,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,11128,0.01367294,False
+d0baad7a,O10,reset_history,Reset H,r1,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,20162,0.022776715,False
+d0baad7a,O10,rollback_later_history,"Roll back W, keep H",r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,1264,0.002721535,False
+d0baad7a,O10,rollback_reset,Roll back W + reset H,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,16798,0.0195571,False
+d0baad7a-C14-r2,O10,H=ledger:full,Ledger (full),r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,15235,0.017880635,False
+d0baad7a-C14-r2,O10,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,17464,0.0201499,False
+d0baad7a-C14-r2,O10,H=ledger:minus_current_approach,Ledger - current approach,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,13810,0.01590937,False
+d0baad7a-C14-r2,O10,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,27530,0.026859875,False
+d0baad7a-C14-r2,O10,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,12069,0.014687505,False
+d0baad7a-C14-r2,O10,H=ledger:minus_plans@global,Ledger - plans,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,21351,0.022944765,False
+d0baad7a-C14-r2,O10,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,21997,0.024916155,False
+d0baad7a-C14-r2,O10,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,13262,0.014165965,False
+d0baad7a-C14-r2,O10,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,11551,0.01480182,False
+d0baad7a-C14-r2,O10,H=reset;R=discard,Reset H + fresh R,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,13723,0.019484315,False
+d0baad7a-C14-r2,O10,H=summary,Summary H,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,22845,0.0231241,False
+d0baad7a-C14-r2,O10,continue,Continue,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,821,0.013781365,False
+d0baad7a-C14-r2,O10,continue,Continue,r1,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,1128,0.01390824,False
+d0baad7a-C14-r2,O10,continue_no_runtime,"Fresh R, keep H",r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,2194,0.01651789,False
+d0baad7a-C14-r2,O10,reset_history,Reset H,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,29767,0.029098,False
+d0baad7a-C14-r2,O10,rollback_later_history,"Roll back W, keep H",r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,626,0.013698865,False
+d0baad7a-C14-r2,O10,rollback_reset,Roll back W + reset H,r0,gpt-6-luna,mettlebench-projecteval-expense-nonidempotent-posting-lockin-v1,over-commit,ceiling,0.8888888888888888,0.8888888888888888,0,12223,0.01627985,False
+e2d1ab49,O11,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,7240,0.0109739448,False
+e2d1ab49,O11,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,9991,0.012680316,False
+e2d1ab49,O11,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,36908,0.0503746992,False
+e2d1ab49,O11,H=ledger:minus_current_approach,Ledger - current approach,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,12798,0.0155473992,False
+e2d1ab49,O11,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,16931,0.020557656,False
+e2d1ab49,O11,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,15566,0.0230172336,False
+e2d1ab49,O11,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.0892134144,False
+e2d1ab49,O11,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,18330,0.0220150296,False
+e2d1ab49,O11,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,31022,0.0494939376,False
+e2d1ab49,O11,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.0589281192,False
+e2d1ab49,O11,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,13401,0.0169362792,False
+e2d1ab49,O11,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.0440881344,False
+e2d1ab49,O11,H=summary,Summary H,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.0545434848,False
+e2d1ab49,O11,continue,Continue,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.048964608,False
+e2d1ab49,O11,continue,Continue,r1,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.032620176,False
+e2d1ab49,O11,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.0345468384,False
+e2d1ab49,O11,reset_history,Reset H,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,38529,0.043783488,False
+e2d1ab49,O11,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.0355266792,False
+e2d1ab49,O11,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.0534374352,False
+e2d1ab49-C10-r2,O11,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.0452222136,False
+e2d1ab49-C10-r2,O11,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.0531593784,False
+e2d1ab49-C10-r2,O11,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.0690362064,False
+e2d1ab49-C10-r2,O11,H=ledger:minus_current_approach,Ledger - current approach,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.1259906832,False
+e2d1ab49-C10-r2,O11,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.0481872744,False
+e2d1ab49-C10-r2,O11,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.0496305,False
+e2d1ab49-C10-r2,O11,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.0547460568,False
+e2d1ab49-C10-r2,O11,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.0482784552,False
+e2d1ab49-C10-r2,O11,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.060795864,False
+e2d1ab49-C10-r2,O11,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,25263,0.0375890616,False
+e2d1ab49-C10-r2,O11,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.0573906024,False
+e2d1ab49-C10-r2,O11,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,29176,0.0371254392,False
+e2d1ab49-C10-r2,O11,H=summary,Summary H,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.0426378888,False
+e2d1ab49-C10-r2,O11,continue,Continue,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.0540153864,False
+e2d1ab49-C10-r2,O11,continue,Continue,r1,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.052557336,False
+e2d1ab49-C10-r2,O11,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.0395448624,False
+e2d1ab49-C10-r2,O11,reset_history,Reset H,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,27336,0.032447196,False
+e2d1ab49-C10-r2,O11,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,40000,0.0697547304,False
+e2d1ab49-C10-r2,O11,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,mettlebench-programbench-age-crypto-fixture-handoff-v1,stuck,ceiling,0.6363636363636364,0.6363636363636364,0,38022,0.0440468496,False
+fa63deec,O12,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,recoverable,0.7142857142857143,0.8571428571428571,0,12789,0.0167339952,False
+fa63deec,O12,H=ledger:full,Ledger (full),r1,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,recoverable,0.7142857142857143,0.8571428571428571,0,40000,0.0431828208,False
+fa63deec,O12,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,recoverable,0.8571428571428571,0.8571428571428571,0,40000,0.0419560632,False
+fa63deec,O12,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,recoverable,0.7142857142857143,0.8571428571428571,0,33368,0.0375719112,False
+fa63deec,O12,H=ledger:minus_current_approach,Ledger - current approach,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,recoverable,0.7142857142857143,0.8571428571428571,0,18662,0.02300274,False
+fa63deec,O12,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,recoverable,0.8571428571428571,0.8571428571428571,0,28712,0.0292599504,False
+fa63deec,O12,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,recoverable,0.7142857142857143,0.8571428571428571,0,31740,0.0452411712,False
+fa63deec,O12,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,recoverable,0.7142857142857143,0.8571428571428571,0,21398,0.024852168,False
+fa63deec,O12,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,recoverable,0.7142857142857143,0.8571428571428571,0,15462,0.0243479592,False
+fa63deec,O12,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,recoverable,0.7142857142857143,0.8571428571428571,0,25547,0.0331368408,False
+fa63deec,O12,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,recoverable,0.7142857142857143,0.8571428571428571,0,28547,0.043221168,False
+fa63deec,O12,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,recoverable,0.7142857142857143,0.8571428571428571,0,26437,0.026863632,False
+fa63deec,O12,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,recoverable,0.7142857142857143,0.8571428571428571,0,26982,0.0299975544,False
+fa63deec,O12,H=summary,Summary H,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,recoverable,0.7142857142857143,1.0,1,19687,0.019304208,False
+fa63deec,O12,continue,Continue,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,recoverable,0.7142857142857143,1.0,1,12788,0.022378392,False
+fa63deec,O12,continue,Continue,r1,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,recoverable,0.7142857142857143,1.0,1,14687,0.0273431448,False
+fa63deec,O12,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,recoverable,0.7142857142857143,1.0,1,15272,0.0251918136,False
+fa63deec,O12,reset_history,Reset H,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,recoverable,0.7142857142857143,0.8571428571428571,0,31532,0.0353898576,False
+fa63deec,O12,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,recoverable,0.8571428571428571,0.8571428571428571,0,35255,0.035880264,False
+fa63deec,O12,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,over-commit,recoverable,0.8571428571428571,0.8571428571428571,0,40000,0.0449118648,False
+fa63deec-C6-r0,O12,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,under-commit,recoverable,0.8571428571428571,1.0,1,26708,0.0324395496,False
+fa63deec-C6-r0,O12,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,under-commit,recoverable,0.8571428571428571,1.0,1,8832,0.0112856688,False
+fa63deec-C6-r0,O12,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,under-commit,recoverable,0.8571428571428571,1.0,1,23031,0.0309892032,False
+fa63deec-C6-r0,O12,H=ledger:minus_current_approach,Ledger - current approach,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,under-commit,recoverable,0.8571428571428571,1.0,1,32177,0.0416277648,False
+fa63deec-C6-r0,O12,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,under-commit,recoverable,0.8571428571428571,1.0,1,25031,0.0270406296,False
+fa63deec-C6-r0,O12,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,under-commit,recoverable,0.8571428571428571,1.0,1,25259,0.0226873872,False
+fa63deec-C6-r0,O12,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,under-commit,recoverable,0.8571428571428571,1.0,1,31234,0.0415389096,False
+fa63deec-C6-r0,O12,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,under-commit,recoverable,0.8571428571428571,1.0,1,26762,0.0388140048,False
+fa63deec-C6-r0,O12,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,under-commit,recoverable,0.8571428571428571,0.8571428571428571,0,40000,0.0466051824,False
+fa63deec-C6-r0,O12,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,under-commit,recoverable,0.8571428571428571,1.0,1,34555,0.0588444552,False
+fa63deec-C6-r0,O12,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,under-commit,recoverable,0.8571428571428571,1.0,1,24943,0.0322156656,False
+fa63deec-C6-r0,O12,H=summary,Summary H,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,under-commit,recoverable,0.8571428571428571,0.8571428571428571,0,40000,0.0430775928,False
+fa63deec-C6-r0,O12,continue,Continue,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,under-commit,recoverable,0.8571428571428571,1.0,1,1297,0.0141892416,False
+fa63deec-C6-r0,O12,continue,Continue,r1,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,under-commit,recoverable,0.8571428571428571,1.0,1,2987,0.0157815216,False
+fa63deec-C6-r0,O12,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,under-commit,recoverable,0.8571428571428571,1.0,1,1857,0.0016094016,False
+fa63deec-C6-r0,O12,reset_history,Reset H,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,under-commit,recoverable,0.8571428571428571,1.0,1,37683,0.041564412,False
+fa63deec-C6-r0,O12,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,under-commit,recoverable,0.8571428571428571,0.8571428571428571,0,17771,0.0329429088,False
+fa63deec-C6-r0,O12,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,mettlebench-swe-cryptography-fernet-rotate-lockin-v1,under-commit,recoverable,0.8571428571428571,1.0,1,36330,0.0399435624,False
+00f1fde4,O13,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,0.0,0,40000,0.080499528,False
+00f1fde4,O13,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,27700,0.0514274184,False
+00f1fde4,O13,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,0.5789473684210527,0,40000,0.0743526288,False
+00f1fde4,O13,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0545452992,False
+00f1fde4,O13,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0884319264,False
+00f1fde4,O13,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0537810048,False
+00f1fde4,O13,H=summary,Summary H,r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,19263,0.0354512088,False
+00f1fde4,O13,continue,Continue,r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0660522312,False
+00f1fde4,O13,continue,Continue,r1,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,30646,0.0456208416,False
+00f1fde4,O13,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,27692,0.0441149472,False
+00f1fde4,O13,o_masked,Mask tool outputs (O),r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,39953,0.06833808,False
+00f1fde4,O13,reset_history,Reset H,r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,31294,0.0574423704,False
+00f1fde4,O13,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,15683,0.0303314256,False
+00f1fde4,O13,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,33683,0.0518925168,False
+00f1fde4-C0-r2,O13,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0720145656,False
+00f1fde4-C0-r2,O13,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,35147,0.0463306392,False
+00f1fde4-C0-r2,O13,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,39787,0.097005672,False
+00f1fde4-C0-r2,O13,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0640208952,False
+00f1fde4-C0-r2,O13,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0855194328,False
+00f1fde4-C0-r2,O13,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,38148,0.0606010248,False
+00f1fde4-C0-r2,O13,H=summary,Summary H,r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0565132176,False
+00f1fde4-C0-r2,O13,continue,Continue,r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,29529,0.0648295272,False
+00f1fde4-C0-r2,O13,continue,Continue,r1,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,24634,0.0461768544,False
+00f1fde4-C0-r2,O13,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,33342,0.0494609256,False
+00f1fde4-C0-r2,O13,reset_history,Reset H,r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,0.0,0,40000,0.1101031056,False
+00f1fde4-C0-r2,O13,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0628487136,False
+00f1fde4-C0-r2,O13,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0758604456,False
+0df4be11,O14,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.5757575757575758,0,40000,0.062500428,False
+0df4be11,O14,H=ledger:full,Ledger (full),r1,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.5757575757575758,0,40000,0.0577403424,False
+0df4be11,O14,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0541422144,False
+0df4be11,O14,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.5757575757575758,0,40000,0.0704094336,False
+0df4be11,O14,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.6060606060606061,0,40000,0.0700234344,False
+0df4be11,O14,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.6060606060606061,0,40000,0.0457019568,False
+0df4be11,O14,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.6060606060606061,0,40000,0.0545192712,False
+0df4be11,O14,H=summary,Summary H,r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0534711168,False
+0df4be11,O14,continue,Continue,r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.6060606060606061,0,40000,0.0710884944,False
+0df4be11,O14,continue,Continue,r1,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.6060606060606061,0,40000,0.0505737288,False
+0df4be11,O14,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.6060606060606061,0,40000,0.0562881888,False
+0df4be11,O14,o_masked,Mask tool outputs (O),r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.6060606060606061,0,30130,0.0484870608,False
+0df4be11,O14,reset_history,Reset H,r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.6060606060606061,0,40000,0.060149016,False
+0df4be11,O14,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.6060606060606061,0,40000,0.0736423056,False
+0df4be11,O14,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.6060606060606061,0,40000,0.0490230864,False
+0df4be11-C0-r0,O14,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0526421016,False
+0df4be11-C0-r0,O14,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.6060606060606061,0,40000,0.0636975432,False
+0df4be11-C0-r0,O14,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,1.0,1,30774,0.0560346984,False
+0df4be11-C0-r0,O14,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.6060606060606061,0,40000,0.0646623,False
+0df4be11-C0-r0,O14,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0572074488,False
+0df4be11-C0-r0,O14,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,1.0,1,30841,0.0423091368,False
+0df4be11-C0-r0,O14,H=summary,Summary H,r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.6060606060606061,0,40000,0.0512499456,False
+0df4be11-C0-r0,O14,continue,Continue,r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0466143408,False
+0df4be11-C0-r0,O14,continue,Continue,r1,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.6060606060606061,0,40000,0.07032168,False
+0df4be11-C0-r0,O14,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.6060606060606061,0,40000,0.0553507704,False
+0df4be11-C0-r0,O14,o_masked,Mask tool outputs (O),r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0567037728,False
+0df4be11-C0-r0,O14,reset_history,Reset H,r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.5757575757575758,0,40000,0.0644738112,False
+0df4be11-C0-r0,O14,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.6060606060606061,0,40000,0.05353344,False
+0df4be11-C0-r0,O14,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,swesmith-isodate-1gq8eopf-v3,under-commit,early_origin,0.0,0.5757575757575758,0,40000,0.0497868768,False
+2a693a45,O15,H=ledger:full,Ledger (full),r0,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,8205,0.007532155,False
+2a693a45,O15,H=ledger:full,Ledger (full),r1,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,9367,0.007806685,False
+2a693a45,O15,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,10760,0.00851851,False
+2a693a45,O15,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,8853,0.008099565,False
+2a693a45,O15,H=ledger:minus_current_approach,Ledger - current approach,r0,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,6565,0.00705765,False
+2a693a45,O15,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,0.6363636363636364,0,13353,0.01172469,False
+2a693a45,O15,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,7577,0.00708188,False
+2a693a45,O15,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,11862,0.00935764,False
+2a693a45,O15,H=ledger:minus_plans@global,Ledger - plans,r0,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,0.8181818181818182,0,16814,0.017192905,False
+2a693a45,O15,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,0.4090909090909091,0,13548,0.01187788,False
+2a693a45,O15,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,0.4090909090909091,0,20737,0.017463615,False
+2a693a45,O15,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,0.8181818181818182,0,10053,0.010414435,False
+2a693a45,O15,H=reset;R=discard,Reset H + fresh R,r0,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,0.2727272727272727,0,5841,0.005740145,False
+2a693a45,O15,H=summary,Summary H,r0,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,4599,0.004968445,False
+2a693a45,O15,continue,Continue,r0,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,530,0.003643675,False
+2a693a45,O15,continue,Continue,r1,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,535,0.003646175,False
+2a693a45,O15,continue_no_runtime,"Fresh R, keep H",r0,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,543,0.003650175,False
+2a693a45,O15,o_masked,Mask tool outputs (O),r0,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,1334,0.002909635,False
+2a693a45,O15,reset_history,Reset H,r0,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,0.6363636363636364,0,17851,0.016512995,False
+2a693a45,O15,reset_history,Reset H,r1,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,0.4090909090909091,0,13013,0.011074255,False
+2a693a45,O15,rollback_later_history,"Roll back W, keep H",r0,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,535,0.003646175,False
+2a693a45,O15,rollback_reset,Roll back W + reset H,r0,gpt-6-luna,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,0.8181818181818182,0,13082,0.013563555,False
+3b880341,O16,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,under-commit,early_origin,0.0,0.0,0,40000,0.041479992,False
+3b880341,O16,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,under-commit,early_origin,0.0,0.9444444444444444,0,40000,0.0460583496,False
+3b880341,O16,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,under-commit,early_origin,0.0,0.9444444444444444,0,40000,0.0415659528,False
+3b880341,O16,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,under-commit,early_origin,0.0,1.0,1,22108,0.024373152,False
+3b880341,O16,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,under-commit,early_origin,0.0,1.0,1,23325,0.0330648264,False
+3b880341,O16,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0398859696,False
+3b880341,O16,H=summary,Summary H,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,under-commit,early_origin,0.0,0.9444444444444444,0,40000,0.038135808,False
+3b880341,O16,continue,Continue,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,under-commit,early_origin,0.0,0.9444444444444444,0,40000,0.0505262736,False
+3b880341,O16,continue,Continue,r1,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,under-commit,early_origin,0.0,0.9444444444444444,0,40000,0.0671358528,False
+3b880341,O16,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,under-commit,early_origin,0.0,0.9444444444444444,0,40000,0.0385207488,False
+3b880341,O16,o_masked,Mask tool outputs (O),r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,under-commit,early_origin,0.0,0.9444444444444444,0,40000,0.0523301256,False
+3b880341,O16,reset_history,Reset H,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,under-commit,early_origin,0.0,0.9444444444444444,0,40000,0.0468824544,False
+3b880341,O16,reset_history,Reset H,r1,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,under-commit,early_origin,0.0,0.9444444444444444,0,40000,0.0514676664,False
+3b880341,O16,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,under-commit,early_origin,0.0,0.9444444444444444,0,40000,0.0525474,False
+3b880341,O16,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0457374528,False
+3b880341-C0-r0,O16,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,stuck,early_origin,0.9444444444444444,0.9444444444444444,0,40000,0.0468938952,False
+3b880341-C0-r0,O16,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,stuck,early_origin,0.9444444444444444,0.9444444444444444,0,40000,0.0481810536,False
+3b880341-C0-r0,O16,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,stuck,early_origin,0.9444444444444444,0.9444444444444444,0,40000,0.0410833152,False
+3b880341-C0-r0,O16,H=ledger:minus_current_approach,Ledger - current approach,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,stuck,early_origin,0.9444444444444444,0.9444444444444444,0,40000,0.0564564096,False
+3b880341-C0-r0,O16,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,stuck,early_origin,0.9444444444444444,0.9444444444444444,0,39445,0.0469044216,False
+3b880341-C0-r0,O16,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,stuck,early_origin,0.9444444444444444,0.9444444444444444,0,40000,0.0658783512,False
+3b880341-C0-r0,O16,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,stuck,early_origin,0.9444444444444444,0.9444444444444444,0,40000,0.047901384,False
+3b880341-C0-r0,O16,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,stuck,early_origin,0.9444444444444444,0.9444444444444444,0,40000,0.0443765232,False
+3b880341-C0-r0,O16,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,stuck,early_origin,0.9444444444444444,0.9444444444444444,0,40000,0.0526285008,False
+3b880341-C0-r0,O16,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,stuck,early_origin,0.9444444444444444,0.9444444444444444,0,40000,0.0553580496,False
+3b880341-C0-r0,O16,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,stuck,early_origin,0.9444444444444444,0.9444444444444444,0,40000,0.0448356312,False
+3b880341-C0-r0,O16,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,stuck,early_origin,0.9444444444444444,0.9444444444444444,0,40000,0.04423086,False
+3b880341-C0-r0,O16,H=summary,Summary H,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,stuck,early_origin,0.9444444444444444,0.9444444444444444,0,40000,0.0452587752,False
+3b880341-C0-r0,O16,continue,Continue,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,stuck,early_origin,0.9444444444444444,0.9444444444444444,0,40000,0.0666870192,False
+3b880341-C0-r0,O16,continue,Continue,r1,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,stuck,early_origin,0.9444444444444444,0.9444444444444444,0,40000,0.0732333456,False
+3b880341-C0-r0,O16,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,stuck,early_origin,0.9444444444444444,0.9444444444444444,0,40000,0.0471099528,False
+3b880341-C0-r0,O16,reset_history,Reset H,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,stuck,early_origin,0.9444444444444444,0.9444444444444444,0,40000,0.0566326368,False
+3b880341-C0-r0,O16,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,stuck,early_origin,0.9444444444444444,0.9444444444444444,0,40000,0.0710639208,False
+3b880341-C0-r0,O16,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,swesmith-gpxpy-7r5pxkmp-v3,stuck,early_origin,0.9444444444444444,0.9444444444444444,0,40000,0.055196064,False
+4dc5b25c,O17,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,over-commit,ceiling,0.45454545454545453,0.6363636363636364,0,40000,0.0604503432,False
+4dc5b25c,O17,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,over-commit,ceiling,0.45454545454545453,0.45454545454545453,0,40000,0.049961196,False
+4dc5b25c,O17,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,over-commit,ceiling,0.45454545454545453,0.45454545454545453,0,40000,0.05082966,False
+4dc5b25c,O17,H=ledger:minus_current_approach,Ledger - current approach,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,over-commit,ceiling,0.45454545454545453,0.45454545454545453,0,40000,0.0679587336,False
+4dc5b25c,O17,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,over-commit,ceiling,0.45454545454545453,0.6363636363636364,0,40000,0.0794156976,False
+4dc5b25c,O17,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,over-commit,ceiling,0.45454545454545453,0.45454545454545453,0,40000,0.064962468,False
+4dc5b25c,O17,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,over-commit,ceiling,0.45454545454545453,0.45454545454545453,0,40000,0.058469868,False
+4dc5b25c,O17,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,over-commit,ceiling,0.45454545454545453,0.45454545454545453,0,40000,0.0757630656,False
+4dc5b25c,O17,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,over-commit,ceiling,0.45454545454545453,0.6363636363636364,0,40000,0.0566386632,False
+4dc5b25c,O17,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,over-commit,ceiling,0.45454545454545453,0.45454545454545453,0,40000,0.072319392,False
+4dc5b25c,O17,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,over-commit,ceiling,0.45454545454545453,0.45454545454545453,0,32619,0.03714228,False
+4dc5b25c,O17,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,over-commit,ceiling,0.45454545454545453,0.45454545454545453,0,38540,0.0554008608,False
+4dc5b25c,O17,continue,Continue,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,over-commit,ceiling,0.45454545454545453,0.45454545454545453,0,23692,0.0355728888,False
+4dc5b25c,O17,continue,Continue,r1,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,over-commit,ceiling,0.45454545454545453,0.45454545454545453,0,28141,0.1251876528,False
+4dc5b25c,O17,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,over-commit,ceiling,0.45454545454545453,0.45454545454545453,0,26676,0.0375421536,False
+4dc5b25c,O17,o_masked,Mask tool outputs (O),r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,over-commit,ceiling,0.45454545454545453,0.45454545454545453,0,40000,0.06161958,False
+4dc5b25c,O17,reset_history,Reset H,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,over-commit,ceiling,0.45454545454545453,0.45454545454545453,0,40000,0.0635893704,False
+4dc5b25c,O17,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,over-commit,ceiling,0.45454545454545453,0.8181818181818182,0,40000,0.067164516,False
+4dc5b25c,O17,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,over-commit,ceiling,0.45454545454545453,0.45454545454545453,0,40000,0.0568088208,False
+4dc5b25c-C3-r4,O17,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,stuck,ceiling,0.45454545454545453,0.45454545454545453,0,40000,0.0557461224,False
+4dc5b25c-C3-r4,O17,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,stuck,ceiling,0.45454545454545453,0.45454545454545453,0,32903,0.0417043296,False
+4dc5b25c-C3-r4,O17,H=ledger:minus_current_approach,Ledger - current approach,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,stuck,ceiling,0.45454545454545453,0.45454545454545453,0,40000,0.0698505984,False
+4dc5b25c-C3-r4,O17,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,stuck,ceiling,0.45454545454545453,0.45454545454545453,0,40000,0.0677075328,False
+4dc5b25c-C3-r4,O17,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,stuck,ceiling,0.45454545454545453,0.6363636363636364,0,40000,0.05798754,False
+4dc5b25c-C3-r4,O17,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,stuck,ceiling,0.45454545454545453,0.6363636363636364,0,31729,0.0404091216,False
+4dc5b25c-C3-r4,O17,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,stuck,ceiling,0.45454545454545453,0.45454545454545453,0,40000,0.0615602448,False
+4dc5b25c-C3-r4,O17,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,stuck,ceiling,0.45454545454545453,0.45454545454545453,0,40000,0.05750136,False
+4dc5b25c-C3-r4,O17,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,stuck,ceiling,0.45454545454545453,0.45454545454545453,0,40000,0.049035528,False
+4dc5b25c-C3-r4,O17,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,stuck,ceiling,0.45454545454545453,0.45454545454545453,0,36309,0.0448905744,False
+4dc5b25c-C3-r4,O17,H=summary,Summary H,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,stuck,ceiling,0.45454545454545453,0.6363636363636364,0,40000,0.0487531944,False
+4dc5b25c-C3-r4,O17,continue,Continue,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,stuck,ceiling,0.45454545454545453,0.45454545454545453,0,28740,0.0372017952,False
+4dc5b25c-C3-r4,O17,continue,Continue,r1,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,stuck,ceiling,0.45454545454545453,0.45454545454545453,0,35402,0.0534693096,False
+4dc5b25c-C3-r4,O17,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,stuck,ceiling,0.45454545454545453,0.8181818181818182,0,40000,0.072078876,False
+4dc5b25c-C3-r4,O17,reset_history,Reset H,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,stuck,ceiling,0.45454545454545453,0.8181818181818182,0,40000,0.0594452016,False
+4dc5b25c-C3-r4,O17,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,stuck,ceiling,0.45454545454545453,0.45454545454545453,0,23609,0.0344169792,False
+4dc5b25c-C3-r4,O17,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-db38faiu-v3,stuck,ceiling,0.45454545454545453,0.45454545454545453,0,40000,0.0450886464,False
+610f3d8f,O18,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,13057,0.0340631136,False
+610f3d8f,O18,H=ledger:full,Ledger (full),r1,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,12443,0.0200010888,False
+610f3d8f,O18,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,16982,0.0326604672,False
+610f3d8f,O18,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,16968,0.0386733672,False
+610f3d8f,O18,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,20461,0.0425035584,False
+610f3d8f,O18,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,16165,0.0203941152,False
+610f3d8f,O18,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,7265,0.0122364,False
+610f3d8f,O18,H=summary,Summary H,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,13494,0.0168553872,False
+610f3d8f,O18,continue,Continue,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,3977,0.0035931528,False
+610f3d8f,O18,continue,Continue,r1,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,7530,0.0213855336,False
+610f3d8f,O18,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,14265,0.0194632272,False
+610f3d8f,O18,o_masked,Mask tool outputs (O),r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,5957,0.0115452504,False
+610f3d8f,O18,reset_history,Reset H,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,17171,0.027150012,False
+610f3d8f,O18,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,6732,0.0263330856,False
+610f3d8f,O18,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,18820,0.0246043152,False
+610f3d8f-C0-r4,O18,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,6001,0.0187532064,False
+610f3d8f-C0-r4,O18,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,8894,0.0139882176,False
+610f3d8f-C0-r4,O18,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,12654,0.01584054,False
+610f3d8f-C0-r4,O18,H=ledger:minus_current_approach,Ledger - current approach,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,10083,0.0160618464,False
+610f3d8f-C0-r4,O18,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,12278,0.0157366008,False
+610f3d8f-C0-r4,O18,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,15172,0.0263690856,False
+610f3d8f-C0-r4,O18,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,23394,0.0308392416,False
+610f3d8f-C0-r4,O18,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,9481,0.018160452,False
+610f3d8f-C0-r4,O18,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,33115,0.0411992208,False
+610f3d8f-C0-r4,O18,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,12475,0.0272391984,False
+610f3d8f-C0-r4,O18,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,11655,0.0165087936,False
+610f3d8f-C0-r4,O18,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,15037,0.0214740576,False
+610f3d8f-C0-r4,O18,H=summary,Summary H,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,4402,0.0060379848,False
+610f3d8f-C0-r4,O18,continue,Continue,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,4794,0.011629728,False
+610f3d8f-C0-r4,O18,continue,Continue,r1,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,3814,0.0102173328,False
+610f3d8f-C0-r4,O18,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,2647,0.0027540792,False
+610f3d8f-C0-r4,O18,o_masked,Mask tool outputs (O),r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,7633,0.0139918968,False
+610f3d8f-C0-r4,O18,reset_history,Reset H,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,9412,0.0144362304,False
+610f3d8f-C0-r4,O18,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,3755,0.0202312656,False
+610f3d8f-C0-r4,O18,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,swesmith-isodate-83qvrapz-v3,under-commit,early_origin,0.0,1.0,1,10345,0.0146493792,False
+7f35e196,O19,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,under-commit,early_origin,0.0,1.0,1,17350,0.023659524,False
+7f35e196,O19,H=ledger:full,Ledger (full),r1,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,under-commit,early_origin,0.0,1.0,1,11918,0.0189363456,False
+7f35e196,O19,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,under-commit,early_origin,0.0,1.0,1,24116,0.0365557752,False
+7f35e196,O19,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,under-commit,early_origin,0.0,1.0,1,23775,0.050887908,False
+7f35e196,O19,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,under-commit,early_origin,0.0,1.0,1,34637,0.0532996416,False
+7f35e196,O19,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,under-commit,early_origin,0.0,0.8823529411764706,0,40000,0.0709325856,False
+7f35e196,O19,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,under-commit,early_origin,0.0,1.0,1,14022,0.018389772,False
+7f35e196,O19,H=summary,Summary H,r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,under-commit,early_origin,0.0,1.0,1,11795,0.014752476,False
+7f35e196,O19,continue,Continue,r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,under-commit,early_origin,0.0,1.0,1,7751,0.0161327304,False
+7f35e196,O19,continue,Continue,r1,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,under-commit,early_origin,0.0,1.0,1,12536,0.0204344208,False
+7f35e196,O19,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,under-commit,early_origin,0.0,1.0,1,8000,0.0152197056,False
+7f35e196,O19,o_masked,Mask tool outputs (O),r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,under-commit,early_origin,0.0,1.0,1,32711,0.0473222376,False
+7f35e196,O19,reset_history,Reset H,r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,under-commit,early_origin,0.0,1.0,1,27201,0.033776568,False
+7f35e196,O19,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,under-commit,early_origin,0.0,1.0,1,13035,0.033910164,False
+7f35e196,O19,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,under-commit,early_origin,0.0,1.0,1,19790,0.0461880288,False
+7f35e196-C0-r2,O19,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,stuck,early_origin,0.0,1.0,1,35258,0.049858236,False
+7f35e196-C0-r2,O19,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,stuck,early_origin,0.0,0.9411764705882353,0,40000,0.0616445064,False
+7f35e196-C0-r2,O19,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,stuck,early_origin,0.0,1.0,1,21859,0.0605825856,False
+7f35e196-C0-r2,O19,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,stuck,early_origin,0.0,0.8823529411764706,0,40000,0.068938092,False
+7f35e196-C0-r2,O19,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,stuck,early_origin,0.0,1.0,1,22222,0.0446404104,False
+7f35e196-C0-r2,O19,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,stuck,early_origin,0.0,0.8823529411764706,0,40000,0.0599145408,False
+7f35e196-C0-r2,O19,H=summary,Summary H,r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,stuck,early_origin,0.0,1.0,1,24843,0.0340442928,False
+7f35e196-C0-r2,O19,continue,Continue,r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,stuck,early_origin,0.0,0.9411764705882353,0,40000,0.075805632,False
+7f35e196-C0-r2,O19,continue,Continue,r1,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,stuck,early_origin,0.0,1.0,1,35421,0.0640001592,False
+7f35e196-C0-r2,O19,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,stuck,early_origin,0.0,0.9411764705882353,0,40000,0.0808040808,False
+7f35e196-C0-r2,O19,o_masked,Mask tool outputs (O),r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,stuck,early_origin,0.0,0.8823529411764706,0,40000,0.058673664,False
+7f35e196-C0-r2,O19,reset_history,Reset H,r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,stuck,early_origin,0.0,1.0,1,16413,0.0218452392,False
+7f35e196-C0-r2,O19,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,stuck,early_origin,0.0,0.9411764705882353,0,40000,0.0552177072,False
+7f35e196-C0-r2,O19,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,swesmith-gpxpy-bwmtdzox-v3,stuck,early_origin,0.0,0.8823529411764706,0,40000,0.112025232,False
+a2a8b8ac,O20,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,30633,0.0388719864,False
+a2a8b8ac,O20,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,16170,0.0222238512,False
+a2a8b8ac,O20,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,38260,0.043441524,False
+a2a8b8ac,O20,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,27315,0.0304413624,False
+a2a8b8ac,O20,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,12977,0.0152155152,False
+a2a8b8ac,O20,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,26216,0.0284007672,False
+a2a8b8ac,O20,H=summary,Summary H,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0360099072,False
+a2a8b8ac,O20,continue,Continue,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,21675,0.0349297704,False
+a2a8b8ac,O20,continue,Continue,r1,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,18688,0.0412935696,False
+a2a8b8ac,O20,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,12100,0.01312488,False
+a2a8b8ac,O20,o_masked,Mask tool outputs (O),r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,17814,0.0287548056,False
+a2a8b8ac,O20,reset_history,Reset H,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,20618,0.0276955272,False
+a2a8b8ac,O20,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,19743,0.0242125416,False
+a2a8b8ac,O20,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,24910,0.0286916904,False
+a2a8b8ac-C0-r3,O20,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,22556,0.0255110112,False
+a2a8b8ac-C0-r3,O20,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,18241,0.026038728,False
+a2a8b8ac-C0-r3,O20,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,0.0,0,40000,0.050217732,False
+a2a8b8ac-C0-r3,O20,H=ledger:minus_current_approach,Ledger - current approach,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,21440,0.0395479296,False
+a2a8b8ac-C0-r3,O20,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,16478,0.0226032768,False
+a2a8b8ac-C0-r3,O20,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,21403,0.0443763144,False
+a2a8b8ac-C0-r3,O20,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,13977,0.021286224,False
+a2a8b8ac-C0-r3,O20,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,23692,0.024479964,False
+a2a8b8ac-C0-r3,O20,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,33898,0.034898148,False
+a2a8b8ac-C0-r3,O20,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,21599,0.0380551032,False
+a2a8b8ac-C0-r3,O20,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0505614888,False
+a2a8b8ac-C0-r3,O20,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,26447,0.0368727552,False
+a2a8b8ac-C0-r3,O20,H=summary,Summary H,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,28861,0.0264218184,False
+a2a8b8ac-C0-r3,O20,continue,Continue,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,11972,0.0233218368,False
+a2a8b8ac-C0-r3,O20,continue,Continue,r1,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,7328,0.015304464,False
+a2a8b8ac-C0-r3,O20,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,10717,0.012714192,False
+a2a8b8ac-C0-r3,O20,reset_history,Reset H,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,24312,0.0297684288,False
+a2a8b8ac-C0-r3,O20,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,12158,0.021697128,False
+a2a8b8ac-C0-r3,O20,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,swesmith-markupsafe-1ltcsjob-v3,under-commit,early_origin,0.0,1.0,1,20029,0.0258079032,False
+aee89637,O21,H=ledger:full,Ledger (full),r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,16446,0.02173594,False
+aee89637,O21,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,18232,0.022145495,False
+aee89637,O21,H=ledger:minus_plans@global,Ledger - plans,r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,14037,0.01924957,False
+aee89637,O21,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,20638,0.021669385,False
+aee89637,O21,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,17136,0.02075266,False
+aee89637,O21,H=reset;R=discard,Reset H + fresh R,r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,12844,0.020112255,False
+aee89637,O21,H=summary,Summary H,r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,9691,0.00997192,False
+aee89637,O21,continue,Continue,r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,1973,0.0077785,False
+aee89637,O21,continue,Continue,r1,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,2111,0.007886625,False
+aee89637,O21,continue_no_runtime,"Fresh R, keep H",r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,4972,0.009522,False
+aee89637,O21,o_masked,Mask tool outputs (O),r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,1778,0.00448501,False
+aee89637,O21,reset_history,Reset H,r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,11236,0.016030415,False
+aee89637,O21,rollback_later_history,"Roll back W, keep H",r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,2662,0.009926655,False
+aee89637,O21,rollback_reset,Roll back W + reset H,r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,20480,0.02197387,False
+aee89637-C0-r1,O21,H=ledger:full,Ledger (full),r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,12429,0.015713905,False
+aee89637-C0-r1,O21,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,13958,0.01624217,False
+aee89637-C0-r1,O21,H=ledger:minus_plans@global,Ledger - plans,r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,19760,0.023100595,False
+aee89637-C0-r1,O21,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,12212,0.016311335,False
+aee89637-C0-r1,O21,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,11201,0.017261435,False
+aee89637-C0-r1,O21,H=reset;R=discard,Reset H + fresh R,r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,10629,0.014289565,False
+aee89637-C0-r1,O21,H=summary,Summary H,r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,15309,0.02321648,False
+aee89637-C0-r1,O21,continue,Continue,r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,6898,0.01217487,False
+aee89637-C0-r1,O21,continue,Continue,r1,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,7032,0.0108228,False
+aee89637-C0-r1,O21,continue_no_runtime,"Fresh R, keep H",r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,6954,0.012176745,False
+aee89637-C0-r1,O21,o_masked,Mask tool outputs (O),r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,6203,0.00834967,False
+aee89637-C0-r1,O21,reset_history,Reset H,r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,11790,0.01903233,False
+aee89637-C0-r1,O21,rollback_later_history,"Roll back W, keep H",r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,4148,0.0093808,False
+aee89637-C0-r1,O21,rollback_reset,Roll back W + reset H,r0,gpt-6-luna,swesmith-python-pinyin-uytkuvff-v3,under-commit,early_origin,0.0,1.0,1,13166,0.019416465,False
+c3da6a71,O22,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,1.0,1,11935,0.0201108672,False
+c3da6a71,O22,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,1.0,1,12951,0.0207501336,False
+c3da6a71,O22,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,1.0,1,19434,0.0426212856,False
+c3da6a71,O22,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,1.0,1,14482,0.022627728,False
+c3da6a71,O22,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0944230032,False
+c3da6a71,O22,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,1.0,1,23064,0.0332021304,False
+c3da6a71,O22,H=summary,Summary H,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,0.0,0,40000,0.052179552,False
+c3da6a71,O22,continue,Continue,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,1.0,1,29661,0.050932044,False
+c3da6a71,O22,continue,Continue,r1,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,1.0,1,14916,0.0194497776,False
+c3da6a71,O22,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,1.0,1,14114,0.0225507672,False
+c3da6a71,O22,o_masked,Mask tool outputs (O),r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,1.0,1,15569,0.0228904632,False
+c3da6a71,O22,reset_history,Reset H,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0527373576,False
+c3da6a71,O22,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,1.0,1,36269,0.065653668,False
+c3da6a71,O22,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,1.0,1,18954,0.0344223504,False
+c3da6a71-C0-r2,O22,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,1.0,1,22379,0.03093066,False
+c3da6a71-C0-r2,O22,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,0.375,0,40000,0.0458408592,False
+c3da6a71-C0-r2,O22,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0523848672,False
+c3da6a71-C0-r2,O22,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0514377936,False
+c3da6a71-C0-r2,O22,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0594043632,False
+c3da6a71-C0-r2,O22,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,0.75,0,40000,0.0631860552,False
+c3da6a71-C0-r2,O22,H=summary,Summary H,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0456035832,False
+c3da6a71-C0-r2,O22,continue,Continue,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,1.0,1,17983,0.0266826816,False
+c3da6a71-C0-r2,O22,continue,Continue,r1,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,0.0,0,40000,0.076098888,False
+c3da6a71-C0-r2,O22,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0627336792,False
+c3da6a71-C0-r2,O22,o_masked,Mask tool outputs (O),r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0569999808,False
+c3da6a71-C0-r2,O22,reset_history,Reset H,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,1.0,1,19381,0.0363861504,False
+c3da6a71-C0-r2,O22,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0614912544,False
+c3da6a71-C0-r2,O22,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-aek3kycy-v3,under-commit,early_origin,0.0,1.0,1,31255,0.0596742696,False
+c9daba22,O23,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0551970576,False
+c9daba22,O23,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0532161432,False
+c9daba22,O23,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.6833333333333333,0,40000,0.0669725136,False
+c9daba22,O23,H=ledger:minus_current_approach,Ledger - current approach,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.7666666666666667,0,39576,0.066063096,False
+c9daba22,O23,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.0,0,13553,0.0158413032,False
+c9daba22,O23,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.7666666666666667,0,40000,0.065426148,False
+c9daba22,O23,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.7666666666666667,0,40000,0.0597228984,False
+c9daba22,O23,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.75,0,40000,0.0676696392,False
+c9daba22,O23,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.7666666666666667,0,40000,0.0670176576,False
+c9daba22,O23,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.7666666666666667,0,40000,0.0793883088,False
+c9daba22,O23,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0531360288,False
+c9daba22,O23,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.6833333333333333,0,40000,0.0523872648,False
+c9daba22,O23,H=summary,Summary H,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.6833333333333333,0,40000,0.0526647888,False
+c9daba22,O23,continue,Continue,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.6833333333333333,0,11873,0.0183753288,False
+c9daba22,O23,continue,Continue,r1,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,1.0,1,28372,0.0520238664,False
+c9daba22,O23,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,1.0,1,28575,0.0521559864,False
+c9daba22,O23,o_masked,Mask tool outputs (O),r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,1.0,1,30134,0.0502904736,False
+c9daba22,O23,reset_history,Reset H,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.7666666666666667,0,40000,0.0657559512,False
+c9daba22,O23,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.6833333333333333,0,13250,0.0278080344,False
+c9daba22,O23,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0450589824,False
+c9daba22-C0-r2,O23,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0495982512,False
+c9daba22-C0-r2,O23,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0477005112,False
+c9daba22-C0-r2,O23,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0741969864,False
+c9daba22-C0-r2,O23,H=ledger:minus_current_approach,Ledger - current approach,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.7666666666666667,0,40000,0.0525869568,False
+c9daba22-C0-r2,O23,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.7,0,40000,0.0625003416,False
+c9daba22-C0-r2,O23,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.75,0,40000,0.0495149976,False
+c9daba22-C0-r2,O23,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.0,0,40000,0.049459716,False
+c9daba22-C0-r2,O23,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.0,0,40000,0.060522624,False
+c9daba22-C0-r2,O23,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0691296912,False
+c9daba22-C0-r2,O23,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.6833333333333333,0,40000,0.0656651736,False
+c9daba22-C0-r2,O23,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.0,0,40000,0.068186916,False
+c9daba22-C0-r2,O23,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.7666666666666667,0,40000,0.0532747872,False
+c9daba22-C0-r2,O23,H=summary,Summary H,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0457148088,False
+c9daba22-C0-r2,O23,continue,Continue,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.75,0,40000,0.0579302064,False
+c9daba22-C0-r2,O23,continue,Continue,r1,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0728760888,False
+c9daba22-C0-r2,O23,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0745579512,False
+c9daba22-C0-r2,O23,o_masked,Mask tool outputs (O),r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0548892216,False
+c9daba22-C0-r2,O23,reset_history,Reset H,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.7666666666666667,0,40000,0.05067702,False
+c9daba22-C0-r2,O23,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.0,0,40000,0.0701152488,False
+c9daba22-C0-r2,O23,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,swesmith-pdfminer-six-dkox5kc3-v3,under-commit,early_origin,0.0,0.7,0,40000,0.0733517856,False
+31b994ee,O24,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,mettlebench-programbench-git-trim-stray-handoff-v1,under-commit,recoverable,0.25,1.0,1,24199,0.02532348,False
+31b994ee,O24,H=ledger:full;W=rollback:minus_current_approach,Ledger + W rollback of current,r0,deepseek-v4.1-flash,mettlebench-programbench-git-trim-stray-handoff-v1,under-commit,recoverable,0.25,1.0,1,29422,0.0373691376,False
+31b994ee,O24,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,mettlebench-programbench-git-trim-stray-handoff-v1,under-commit,recoverable,0.25,1.0,1,24277,0.0539313048,False
+31b994ee,O24,H=ledger:minus_current_approach,Ledger - current approach,r0,deepseek-v4.1-flash,mettlebench-programbench-git-trim-stray-handoff-v1,under-commit,recoverable,0.25,1.0,1,32138,0.0347742,False
+31b994ee,O24,H=ledger:minus_current_approach;W=rollback:minus_current_approach,Ledger - current + W rollback,r0,deepseek-v4.1-flash,mettlebench-programbench-git-trim-stray-handoff-v1,under-commit,recoverable,0.25,1.0,1,37702,0.0453043008,False
+31b994ee,O24,H=ledger:minus_current_approach_tombstone,Ledger - current (tombstone),r0,deepseek-v4.1-flash,mettlebench-programbench-git-trim-stray-handoff-v1,under-commit,recoverable,0.25,1.0,1,37308,0.0428258808,False
+31b994ee,O24,H=ledger:minus_current_approach~ctrl,Ledger - random matched slice,r0,deepseek-v4.1-flash,mettlebench-programbench-git-trim-stray-handoff-v1,under-commit,recoverable,0.25,0.75,0,40000,0.0496407888,False
+31b994ee,O24,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,mettlebench-programbench-git-trim-stray-handoff-v1,under-commit,recoverable,0.25,1.0,1,20074,0.038976876,False
+31b994ee,O24,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,mettlebench-programbench-git-trim-stray-handoff-v1,under-commit,recoverable,0.25,1.0,1,36427,0.0532068264,False
+31b994ee,O24,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,mettlebench-programbench-git-trim-stray-handoff-v1,under-commit,recoverable,0.25,0.875,0,40000,0.0556890696,False
+31b994ee,O24,H=ledger:minus_shifted_cut_earlier,Ledger - shifted cut,r0,deepseek-v4.1-flash,mettlebench-programbench-git-trim-stray-handoff-v1,under-commit,recoverable,0.25,1.0,1,23469,0.0253773576,False
+31b994ee,O24,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,mettlebench-programbench-git-trim-stray-handoff-v1,under-commit,recoverable,0.25,1.0,1,34593,0.037311084,False
+31b994ee,O24,H=summary,Summary H,r0,deepseek-v4.1-flash,mettlebench-programbench-git-trim-stray-handoff-v1,under-commit,recoverable,0.25,1.0,1,24207,0.0249366384,False
+31b994ee,O24,continue,Continue,r0,deepseek-v4.1-flash,mettlebench-programbench-git-trim-stray-handoff-v1,under-commit,recoverable,0.25,0.875,0,40000,0.0499211856,False
+31b994ee,O24,continue,Continue,r1,deepseek-v4.1-flash,mettlebench-programbench-git-trim-stray-handoff-v1,under-commit,recoverable,0.25,1.0,1,27334,0.0465421248,False
+31b994ee,O24,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,mettlebench-programbench-git-trim-stray-handoff-v1,under-commit,recoverable,0.25,0.875,0,34411,0.034733772,False
+31b994ee,O24,o_masked,Mask tool outputs (O),r0,deepseek-v4.1-flash,mettlebench-programbench-git-trim-stray-handoff-v1,under-commit,recoverable,0.25,1.0,1,14878,0.0171397296,False
+31b994ee,O24,reset_history,Reset H,r0,deepseek-v4.1-flash,mettlebench-programbench-git-trim-stray-handoff-v1,under-commit,recoverable,0.25,1.0,1,36236,0.0410174856,False
+31b994ee,O24,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,mettlebench-programbench-git-trim-stray-handoff-v1,under-commit,recoverable,0.25,1.0,1,22289,0.0217083744,False
+31b994ee,O24,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,mettlebench-programbench-git-trim-stray-handoff-v1,under-commit,recoverable,0.25,0.875,0,40000,0.0403856784,False
+ff31a8d3,O25,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,1.0,1,36260,0.0511411536,False
+ff31a8d3,O25,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,0.5,0,40000,0.0632109168,False
+ff31a8d3,O25,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,0.75,0,40000,0.0661906152,False
+ff31a8d3,O25,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,0.875,0,40000,0.06767658,False
+ff31a8d3,O25,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,0.875,0,40000,0.0660599784,False
+ff31a8d3,O25,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,0.5,0,40000,0.0490009392,False
+ff31a8d3,O25,H=summary,Summary H,r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,1.0,1,31222,0.0393592464,False
+ff31a8d3,O25,continue,Continue,r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,1.0,1,10523,0.0238474008,False
+ff31a8d3,O25,continue,Continue,r1,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,0.5,0,40000,0.050812884,False
+ff31a8d3,O25,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,1.0,1,36563,0.053062704,False
+ff31a8d3,O25,o_masked,Mask tool outputs (O),r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,1.0,1,30858,0.04803876,False
+ff31a8d3,O25,reset_history,Reset H,r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,0.5,0,40000,0.0659550888,False
+ff31a8d3,O25,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,1.0,1,22100,0.0259547904,False
+ff31a8d3,O25,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,0.5,0,40000,0.077787468,False
+ff31a8d3-C0-r3,O25,H=ledger:full,Ledger (full),r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,0.875,0,40000,0.0636903288,False
+ff31a8d3-C0-r3,O25,H=ledger:minus_beliefs@global,Ledger - beliefs,r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,0.875,0,40000,0.0684972864,False
+ff31a8d3-C0-r3,O25,H=ledger:minus_plans@global,Ledger - plans,r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,1.0,1,39787,0.0686477448,False
+ff31a8d3-C0-r3,O25,H=ledger:minus_plans_and_beliefs@global,Ledger - plans - beliefs,r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,0.75,0,40000,0.0688404888,False
+ff31a8d3-C0-r3,O25,H=ledger:minus_reasoning_channel,Ledger - reasoning,r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,0.125,0,40000,0.0609694992,False
+ff31a8d3-C0-r3,O25,H=reset;R=discard,Reset H + fresh R,r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,0.5,0,40000,0.0680482152,False
+ff31a8d3-C0-r3,O25,H=summary,Summary H,r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,0.5,0,40000,0.0586969632,False
+ff31a8d3-C0-r3,O25,continue,Continue,r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,1.0,1,31599,0.0575153784,False
+ff31a8d3-C0-r3,O25,continue,Continue,r1,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,1.0,1,35581,0.0691378704,False
+ff31a8d3-C0-r3,O25,continue_no_runtime,"Fresh R, keep H",r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,0.875,0,40000,0.0568997712,False
+ff31a8d3-C0-r3,O25,o_masked,Mask tool outputs (O),r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,1.0,1,35523,0.0469179216,False
+ff31a8d3-C0-r3,O25,reset_history,Reset H,r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,1.0,1,32048,0.0432330912,False
+ff31a8d3-C0-r3,O25,rollback_later_history,"Roll back W, keep H",r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,1.0,1,34116,0.0722178648,False
+ff31a8d3-C0-r3,O25,rollback_reset,Roll back W + reset H,r0,deepseek-v4.1-flash,mettlebench-programbench-calcurse-calendar-handoff-v1,under-commit,early_origin,0.0,0.875,0,40000,0.0622622592,False
